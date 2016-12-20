@@ -1,0 +1,36 @@
+{
+    "title": "Using PowerPC LE (ppc64le) Docker Images on Intel Host",
+    "description": "Launch ppc64le Docker image on Intel",
+    "difficulty": "beginner",
+    "time": "2-5 minutes",
+    "details": {
+        "steps": [
+            {
+                "title": "Step 1 - Setup Environment",
+                "text": "step1.md"
+            },
+            {
+                "title": "Step 2 - Run PowerPC LE Docker Image",
+                "text": "step2.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "courseData": "courseBase.sh",
+            "credits": ""
+        },
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "files": [
+        "app.js"
+    ],
+    "environment": {
+        "uilayout": "terminal",
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+    },
+    "backend": {
+        "imageid": "coreos"
+    }
+}
